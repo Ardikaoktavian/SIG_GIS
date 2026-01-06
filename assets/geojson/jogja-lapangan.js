@@ -1,0 +1,15 @@
+var data = {
+"type": "FeatureCollection",
+"name": "jogja-lapangan",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ogc_fid": 1, "no": 1.0, "nama_lapan": "Lapangan Karang", "alamat": "Prenggan, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55172", "kelurahan": "Prenggan", "latitude": -7.822788952, "longitude": 110.3965804 }, "geometry": { "type": "Point", "coordinates": [ 110.3965804, -7.822788952 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 2, "no": 2.0, "nama_lapan": "Lapangan Mancasan", "alamat": "Jl. Kresno, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55252", "kelurahan": "Wirobrajan", "latitude": -7.804974719, "longitude": 110.3528313 }, "geometry": { "type": "Point", "coordinates": [ 110.3528313, -7.804974719 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 3, "no": 3.0, "nama_lapan": "Lapangan Sidokabul", "alamat": "Lapangan Jl. Sidokabul, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162", "kelurahan": "Sorosutan", "latitude": -7.820117769, "longitude": 110.3798757 }, "geometry": { "type": "Point", "coordinates": [ 110.3798757, -7.820117769 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 4, "no": 4.0, "nama_lapan": "GOR Ngampilan", "alamat": "Jl. Letjen Suprapto No.5, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55261", "kelurahan": "Ngampilan", "latitude": -7.799720089, "longitude": 110.3562123 }, "geometry": { "type": "Point", "coordinates": [ 110.3562123, -7.799720089 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 5, "no": 5.0, "nama_lapan": "GOR Segoroamarto", "alamat": "Jl. Demakan Baru Gg. Kemuning, Tegalrejo, Kec. Tegalrejo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55171", "kelurahan": "Tegalrejo", "latitude": -7.790864407, "longitude": 110.351668 }, "geometry": { "type": "Point", "coordinates": [ 110.351668, -7.790864407 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 6, "no": 6.0, "nama_lapan": "GOR Warungboto", "alamat": "Warungboto, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55164", "kelurahan": "Warungboto", "latitude": -7.804493074, "longitude": 110.3880307 }, "geometry": { "type": "Point", "coordinates": [ 110.3880307, -7.804493074 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 7, "no": 7.0, "nama_lapan": "GOR Wirobrajan", "alamat": "Jl. Kresno No.1, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55252", "kelurahan": "Wirobrajan", "latitude": -7.80468345, "longitude": 110.3533039 }, "geometry": { "type": "Point", "coordinates": [ 110.3533039, -7.80468345 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 8, "no": 8.0, "nama_lapan": "GOR Wirogunan", "alamat": "Wirogunan, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55151", "kelurahan": "Wirogunan", "latitude": -7.80693491, "longitude": 110.3783305 }, "geometry": { "type": "Point", "coordinates": [ 110.3783305, -7.80693491 ] } }
+]
+}

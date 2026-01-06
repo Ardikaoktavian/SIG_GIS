@@ -1,3 +1,7 @@
+<?php
+$scriptFile = "leaflet-basicmap";
+?>
+
 <div>
     <label id="point1">Point1: </label> <br>
     <label id="point2">Point2: </label> <br>

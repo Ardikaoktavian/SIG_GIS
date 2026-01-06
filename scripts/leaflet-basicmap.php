@@ -13,7 +13,7 @@
     });
     tileLayer.addTo(map);
 
-    var marker = L.marker([centerLatLong]).addTo(map); //Menambahkan Marker
+    var marker = L.marker(centerLatLong).addTo(map); //Menambahkan Marker
     marker.bindPopup("<b>Hello world!</b><br>Koordinat: " + marker.getLatLng()); //Menambahkan Popup ke Marker
 
     var count = 0;
@@ -58,9 +58,9 @@
 
     function reset() { // Reset marker dan label
         count = 0;
-        marker1.remove();
-        marker2.remove();
-        polyline.remove();
+        if (marker1) marker1.remove();
+        if (marker2) marker2.remove();
+        if (polyline) polyline.remove();
         document.getElementById("point1").innerHTML = "Point1: ";
         document.getElementById("point2").innerHTML = "Point2: ";
         document.getElementById("distance").innerHTML = "Distance: ";
